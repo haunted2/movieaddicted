@@ -128,10 +128,16 @@ float: right;
 
 #block-views-welcome-user-block {
     float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     color: #ffffff
 }
 #block-block-14 {
     float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     color: #ffffff;
 }
 #block-views-welcome-user-block a,

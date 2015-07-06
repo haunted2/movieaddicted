@@ -1,0 +1,61 @@
+ul.quicktabs-tabs {
+margin-top: 5px;
+}
+ul.quicktabs-tabs li a, .flag-want-to-see a {
+-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+        font-weight: bold;
+	padding:3px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+
+ul.quicktabs-tabs li a:hover, .flag-want-to-see a:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+
+
+ul.quicktabs-tabs li.active a, .flag-want-to-see a:active {
+position:relative;
+	top:1px;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #02365c), color-stop(1, #025e8f));
+	background:-moz-linear-gradient(top, #02365c 5%, #025e8f 100%);
+	background:-webkit-linear-gradient(top, #02365c 5%, #025e8f 100%);
+	background:-o-linear-gradient(top, #02365c 5%, #025e8f 100%);
+	background:-ms-linear-gradient(top, #02365c 5%, #025e8f 100%);
+	background:linear-gradient(to bottom, #02365c 5%, #025e8f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#02365c', endColorstr='#025e8f',GradientType=0);
+	background-color:#02365c;
+}
+
+
+@media (max-width: 600px) {
+ul.quicktabs-tabs li a {padding: 5px; margin-top:10px; margin-bottom: 10px;}
+}
+
+

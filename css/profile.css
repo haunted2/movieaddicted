@@ -1,0 +1,64 @@
+.pane-user-picture img {
+border-radius: 5px;
+
+}
+
+.pane-user-privatemsg-send-new-message, .pane-user-relationship-blocks-actions, .pane-flag-link.pane-user {
+display: inline-block;
+margin-right: 5px;
+}
+
+@media (max-width: 900px){
+.pane-user-privatemsg-send-new-message, .pane-user-relationship-blocks-actions, .pane-flag-link.pane-user {
+float: left
+clear: both;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+}
+
+@media (max-width: 900px) {
+.pane-user-privatemsg-send-new-message a, .pane-user-relationship-blocks-actions a, .pane-flag-link.pane-user a {
+float: left;
+clear: both;
+}
+}
+
+.pane-user-privatemsg-send-new-message a, .pane-user-relationship-blocks-actions a, .pane-flag-link.pane-user a {
+background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 rgba(0, 0, 0, 0);
+color: #323232;
+border: solid 1px #CBCBCB;
+border-radius: 2px;
+padding: 10px 15px 10px 15px;
+margin-right: 5px;
+}
+
+.pane-user-privatemsg-send-new-message a:hover, .pane-user-relationship-blocks-actions a:hover, .pane-flag-link.pane-user a:hover {
+background: linear-gradient(#FEFEFE, #E5E5E5) repeat scroll 0 0 rgba(0, 0, 0, 0);
+text-decoration: none;
+}
+.fbss-comments-form .button, .statuses-update .button {
+color: #333333;
+}
+
+.view-fbss-ur-stream td {
+width: 700px;
+padding-right: 5px;
+}
+
+.view-statuses-stream td {
+width: 700px;
+padding-right: 5px;
+}
+.statuses-sender-picture img {
+width: 50px;
+}
+
+.fbss-comments-picture img {
+width: 25px;
+}
+
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 600px) {
+.page-user .panel-col-first, .page-user .panel-col-last {display: block; width: 100%;}
+}

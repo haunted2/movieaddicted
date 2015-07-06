@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Display Suite Small Right Column stylesheet.
+ */
+
+.ds-left {
+width: 85%;
+float: left;
+}
+
+.ds-right {
+margin-left: 5px;
+width: 12%;
+float: right;
+}

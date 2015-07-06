@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Display Suite Small Left Column stylesheet.
+ */
+
+.ds-sl-left {
+width: 15%;
+float: left;
+}
+
+.ds-sl-right {
+width: 85%;
+float: right;
+}

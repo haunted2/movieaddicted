@@ -1,0 +1,19 @@
+#block-views-christmas-films-block{
+background-image: url("../images/christmas_tree_20.png");
+}
+
+#block-views-christmas-films-block h2,
+#block-views-christmas-films-block .views-field-title a,
+#block-views-christmas-films-block .views-field-nothing a,
+#block-views-christmas-films-block ul {
+ color: white; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 7px; 
+
+}
+
+#block-views-christmas-films-block .views-field-title {margin-bottom: 10px;}
+#block-views-christmas-films-block img {boreder-radius: 5px;}
+#block-views-christmas-films-block .views-row {border: none;}

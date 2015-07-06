@@ -1,0 +1,38 @@
+.rate-widget-yesno li.first .rate-yesno-btn{
+margin-right: 5px;
+padding: 0 2px;
+border: 1px solid #ccc;
+background: url("../images/like.png") no-repeat center #eee;
+height: 20px;
+width: 30px;
+text-indent: -9999px;
+white-space: nowrap;
+}
+
+.rate-widget-yesno li.last .rate-yesno-btn{
+margin-right: 5px;
+margin-left: 5px;
+padding: 0 2px;
+border: 1px solid #ccc;
+background: url("../images/dislike.png") no-repeat center #eee;
+height: 20px;
+width: 30px;
+text-indent: -9999px;
+white-space: nowrap;
+}
+
+.rate-widget-yesno li.first .rate-yesno-btn:hover{
+background: url("../images/like.png") no-repeat center #ffffff;
+}
+.rate-widget-yesno li.last .rate-yesno-btn:hover{
+background: url("../images/dislike.png") no-repeat center #ffffff;
+}
+
+.rate-widget-yesno li.first .rate-yesno-btn:active{
+position: relative;
+top: 1px;
+}
+.rate-widget-yesno li.last .rate-yesno-btn:active{
+position: relative;
+top: 1px;
+}

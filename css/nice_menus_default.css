@@ -1,0 +1,101 @@
+/******************************
+ Global CSS for ALL menu types
+******************************/
+
+ul.nice-menu,
+ul.nice-menu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+ul.nice-menu li {
+float: left; /* LTR */
+}
+
+ul.nice-menu a {
+background-color: transparent;
+padding: 10px 10px 6px 10px;
+color: #ffffff /*#137CC1*/;
+text-decoration: none;
+font-size: 13px;
+font-weight: bold;
+}
+
+ul.nice-menu a:hover {
+text-decoration: none;
+color: #ffffff;
+background-color: /*#00BE4C*/ #404B4F;
+border-bottom: solid 4px #FD7037; 
+}
+
+/******************************
+ HORIZONTAL (down) menus
+******************************/
+
+ul.nice-menu-down {
+  float: left;
+  border: 0;
+}
+
+
+ul.nice-menu-down li ul li a{
+color: #ffffff;
+width: 180px;
+border-bottom: solid 1px #525252; 
+border-top: solid 1px #262626;
+}
+
+ul.nice-menu-down li ul li a:hover {
+border-bottom: solid 1px #525252;
+}
+
+ul.nice-menu-down li ul li:first-child a{
+border-top: none;
+border-radius: 2px 2px 0 0;
+}
+
+
+ul.nice-menu-down li ul li:last-child a {
+border-radius: 0 0 2px 2px;
+border-bottom: none;
+}
+
+ul.nice-menu-down ul a {
+color: #4A80BE;
+}
+
+ul.nice-menu-down ul {
+min-width: 100%;
+background-color: #383838;
+list-style: none;
+top: 50px;
+-webkit-box-shadow: 3px 3px 14px 0px #616161;
+-moz-box-shadow: 3px 3px 14px 0px #616161;
+box-shadow: 3px 3px 14px 0px #616161;
+border-radius: 2px;
+}
+
+ul.nice-menu-down ul:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 46px;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #383838 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+ul.nice-menu-down .menuparent a , ul.nice-menu-down .menuparent a:hover {
+background-image: url("../nice_menu_images/arrow-down.png");
+background-repeat: no-repeat;
+background-position: 100% 65%;
+padding-right: 17px; /* LTR */}
+
+
+ul.nice-menu-down .menuparent li a, ul.nice-menu-down .menuparent li a:hover {
+background-image: none;
+}

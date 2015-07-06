@@ -98,23 +98,6 @@ margin-top: 20px;
 font-size:smaller;
 }
 
-/*Welcome User*/
-.welcome-logged-in, .welcome-anonymous {
-float: right;
-clear: both;
-color: #ffffff;
-}
-.welcome-logged-in img, .welcome-anonymous img {
-width: 25px; border-radius: 3px;
-margin-left: 5px;
-vertical-align: middle;
-}
-.welcome-logged-in a {
-color: #CC0000;
-font-weight: bold;
-}
-/*End Welcome User*/
-
 .sidebar {
 padding-left:3px;
 padding-right:3px;
@@ -132,6 +115,9 @@ padding: 10px;
 padding: 5px;
 }
 
+#block-user-login {
+float: right;
+}
 
 .heartbeat-activity img {
 border-radius: 3px;
@@ -410,7 +396,6 @@ margin-bottom: 10px;
 #triptych_last {float:left;width:25%;max-width:25%}
 
 @media (max-width: 600px) {
-.welcome-logged-in, .welcome-anonymous {float: left; clear: both;}
 
 #secondary-menu {float: left; clear: both;}
 

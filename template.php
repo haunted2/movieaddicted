@@ -153,6 +153,7 @@ $form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {th
 
 
 //WELCOME USER SNIPPET
+/*
 function movieaddicted_preprocess_page(&$vars){
 global $user;
 $uid = $user->uid;
@@ -170,3 +171,4 @@ $vars['welcome_user'] = 'Welcome Guest ' . $user_picture;
 $vars['welcome_class'] = 'welcome-anonymous';
 endif;
 }
+*/

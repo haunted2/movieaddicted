@@ -71,6 +71,11 @@ border-top: medium none;
 background-color: #262626;
 }
 
+.region-header {
+min-height: 100px;
+position: relative;
+}
+
 #logo {
 margin-top: 10px;
 margin-right: 10px;
@@ -123,21 +128,16 @@ float: right;
 
 #block-views-welcome-user-block {
     float: right;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
     color: #ffffff
 }
 #block-block-14 {
     float: right;
-    position: absolute;
-    top: 5px;
-    right: 5px;
     color: #ffffff;
 }
 #block-views-welcome-user-block a,
 #block-block-14 a {
     color: red;
+    font-weight: bold;
 }
 #block-views-welcome-user-block .views-row {
     border: none;

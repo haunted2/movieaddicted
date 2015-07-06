@@ -1,13 +1,14 @@
-i an#block-search-form a {
+#block-search-form a {
 color:#141823;
 }
 
 
 #block-search-form {
-position: relative;
-top: 10px;
+float: left;
+position: absolute;
+left: 0;
+bottom: 0;
 z-index: 25;
-min-width:100%;
 }
 
 #block-search-form input[type="submit"], #block-search-form input[type="text"] {

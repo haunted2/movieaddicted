@@ -283,7 +283,34 @@ position:relative;
 	top:1px;
 }
 
-a.login-with-facebook {
+/* Login/register link */
+
+#block-user-login a.popup-element-title {
+    background-image: none;
+    background-color: #383838;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 2px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 8px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
+}
+#block-user-login a.popup-element-title:hover {
+    background-color: #505050;
+}
+#block-user-login a.popup-element-title:active {
+    position: relative;
+    top: 1px;
+}
+/* Login with facebook link */
+
+#facebook-login a {
 -moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
 	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
@@ -308,7 +335,7 @@ a.login-with-facebook {
 	padding:6px 12px 6px 50px;
 	text-decoration:none;
 }
-a.login-with-facebook:hover {
+#facebook-login a :hover {
 background-color:#5972a7;
 background-image: url("../images/fblogo.png");
 background:url("../images/fblogo.png"),-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5972a7), color-stop(1, #637aad));
@@ -322,9 +349,17 @@ background:url("../images/fblogo.png"),-webkit-gradient(linear, left top, left b
 	background-position: 4% 50%;
 
 }
-a.login-with-facebook:active {
+#facebook-login a :active {
 position:relative;
 	top:1px;
+}
+
+/* Facebook login "OR" */
+p#facebook-login-or {
+    background-color: #383838;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
 }
 /*END BUTTONS*/
 

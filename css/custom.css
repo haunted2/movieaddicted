@@ -114,11 +114,62 @@ padding: 10px;
 #user-login-form {
 padding: 5px;
 }
-
+/* Login block */
 #block-user-login {
 float: right;
 }
 
+/*Welcome User*/
+
+#block-views-welcome-user-block {
+    float: right;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #ffffff
+}
+#block-block-14 {
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #ffffff;
+}
+#block-views-welcome-user-block a,
+#block-block-14 a {
+    color: red;
+}
+#block-views-welcome-user-block .views-row {
+    border: none;
+}
+#block-views-welcome-user-block .views-field,
+#block-block-14 span {
+    margin-right: 5px;
+}
+#block-views-welcome-user-block img,
+#block-block-14 img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+@media screen and (max-width: 1000px) {
+    #block-views-welcome-user-block,
+    #block-block-14 {
+        float: left;
+        clear: both;
+        position: static
+    }
+    #block-user-login {
+        float: left;
+        clear: both;
+        position: static;
+        ;
+    }
+}
+/*End Welcome User*/
+
+/* Activities view */
 .heartbeat-activity img {
 border-radius: 3px;
 width: 2em;

@@ -45,15 +45,7 @@
         )); ?>
       </nav>
     <?php endif; ?>
-    
- <?php //begin welcome user ?>
-
-        <div class="<?php if ($welcome_class): print $welcome_class; endif; ?>" >
-         <?php if($welcome_user): print $welcome_user; endif; ?>
-        </div>
-     
- <?php //end welcome user ?>
-        
+           
     <?php print render($page['header']); ?>
 
   </header>

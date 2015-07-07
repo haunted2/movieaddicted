@@ -5,10 +5,17 @@ color:#141823;
 
 #block-search-form {
 float: left;
-position: absolute;
-left: 0;
-bottom: 0;
 z-index: 25;
+clear: left;
+}
+
+@media screen and (max-width: 800px) {
+#block-search-form{
+position: static;
+float:_left;
+clear: both;
+
+}
 }
 
 #block-search-form input[type="submit"], #block-search-form input[type="text"] {

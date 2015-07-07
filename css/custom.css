@@ -72,14 +72,14 @@ background-color: #262626;
 }
 
 .region-header {
-min-height: 100px;
+min-height: 150px;
 position: relative;
 }
 
-#logo {
-margin-top: 10px;
-margin-right: 10px;
+/* Logo */
+#block-block-15 {
 float: left;
+clear: left;
 }
 
 #secondary-menu a {
@@ -122,6 +122,9 @@ padding: 5px;
 /* Login block */
 #block-user-login {
 float: right;
+position: absolute;
+right: 0;
+bottom: 0;
 }
 
 /*Welcome User*/
@@ -136,7 +139,7 @@ float: right;
 #block-block-14 {
     float: right;
     position: absolute;
-    bottom: 0;
+    top: 10px;
     right: 0;
     color: #ffffff;
 }
@@ -159,18 +162,21 @@ float: right;
     vertical-align: middle;
     border-radius: 3px;
 }
-@media screen and (max-width: 1000px) {
-    #block-views-welcome-user-block,
-    #block-block-14 {
+@media screen and (max-width: 800px) {
+    #block-block-14, #block-views-welcome-user-block {
         float: left;
         clear: both;
         position: static
     }
     #block-user-login {
-        float: left;
-        clear: both;
+        float: right;
+        clear: right;
         position: static;
-        ;
+    }
+    #secondary-menu {
+    float: left;
+     clear: both; 
+     margin-bottom: 15px;
     }
 }
 /*End Welcome User*/
@@ -453,8 +459,6 @@ margin-bottom: 10px;
 #triptych_last {float:left;width:25%;max-width:25%}
 
 @media (max-width: 600px) {
-
-#secondary-menu {float: left; clear: both;}
 
 #triptych_first, #triptych_middle, #triptych_last {float:nofloat; width: 100%; max-width: 100%;}
 

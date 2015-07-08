@@ -1,6 +1,8 @@
+/* "Fimographies" page exposed filters CSS */
+.views-exposed-widgets .views-widget-filter-field_directed_by_tid,
+.views-exposed-widgets .views-widget-filter-tid {width: 33%;}
+
 /* "Latest articles" block slideshow CSS */
-
-
 /* Responsive frame */
 
 .views_slideshow_cycle_main {

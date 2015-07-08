@@ -1,0 +1,70 @@
+<?php
+
+/**
+ * @file
+ * Default simple view template to all the fields as a row.
+ *
+ * - $view: The view in use.
+ * - $fields: an array of $field objects. Each one contains:
+ *   - $field->content: The output of the field.
+ *   - $field->raw: The raw data for the field, if it exists. This is NOT output safe.
+ *   - $field->class: The safe class id to use.
+ *   - $field->handler: The Views field handler object controlling this field. Do not use
+ *     var_export to dump this object, as it can't handle the recursion.
+ *   - $field->inline: Whether or not the field should be inline.
+ *   - $field->inline_html: either div or span based on the above flag.
+ *   - $field->wrapper_prefix: A complete wrapper containing the inline_html to use.
+ *   - $field->wrapper_suffix: The closing tag for the wrapper.
+ *   - $field->separator: an optional separator that may appear before a field.
+ *   - $field->label: The wrap label text to use.
+ *   - $field->label_html: The full HTML of the label to use including
+ *     configured element type.
+ * - $row: The raw result object from the query, with all data it fetched.
+ *
+ * @ingroup views_templates
+ */
+
+ ?>
+
+<div class="recent-reviews-container">
+
+<div class="recent-reviews-title">
+<?php print $fields['title']->content; ?>
+</div>
+
+<div class="recent-reviews-left">
+	
+<div class="recent-reviews-name"> 
+<?php print $fields['name']->content; ?>
+</div> 	
+
+<div class="recent-reviews-picture">
+<?php print $fields['picture']->content; ?>
+</div>
+
+</div>
+
+<div class="recent-reviews-right">
+	
+<div class="recent-reviews-rating"> 
+<?php print $fields['field_your_rating']->wrapper_prefix; ?>		
+<?php print $fields['field_your_rating']->content; ?>
+<?php print $fields['field_your_rating']->wrapper_suffix; ?>
+</div>
+
+<div class="recent-reviews-body"> 
+<?php print $fields['comment_body']->content; ?>
+</div>
+
+<div class="recent-reviews-view-link"> 
+<?php print $fields['view_comment']->content; ?>
+</div>
+
+<div class="recent-reviews-timestamp"> 
+<?php print $fields['timestamp']->content; ?>
+</div>
+
+</div>
+
+</div>
+

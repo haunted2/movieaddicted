@@ -2,9 +2,22 @@
 .views-exposed-widgets .views-widget-filter-field_directed_by_tid,
 .views-exposed-widgets .views-widget-filter-tid {width: 33%;}
 
+/* "Articles" page CSS */
+.view-articles .views-row {
+background-color: #ffffff;
+border: soli 1px #cccccc;
+border-radius: 3px;
+padding: 15px;
+}
+.view-articles .view-header{
+height: 50px;
+}
+.view-articles .view-header p {
+float: right;
+}
+
 /* "Latest articles" block slideshow CSS */
 /* Responsive frame */
-
 .views_slideshow_cycle_main {
     width: 100%;
 }

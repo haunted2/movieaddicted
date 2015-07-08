@@ -457,3 +457,10 @@ iframe {
     clear: both;
     margin: 15px;
 }
+.cool-pane {
+background-color: #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 4px #858585;
+   padding: 10px;
+   margin-bottom: 10px;
+   }

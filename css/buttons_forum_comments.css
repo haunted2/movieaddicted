@@ -170,41 +170,11 @@ table.forum-table-topics {
     position: relative;
     top: 1px;
 }
-/*
-.logged-in .comment-links a {
-  -webkit-border-radius: 3;
-  -moz-border-radius: 3;
-  border-radius: 3px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 12px;
-  padding: 5px 10px 5px 10px;
-  text-decoration: none;
-  border: solid 1px;
-}
-
-.comment-links .comment-delete a {background-color: #d9534f; border: solid 1px #d43f3a;}
-.comment-links .comment-delete a:hover {background-color: #c9302c; border-color: #ac2925}
-
-.comment-links .comment-edit a{background-color: #337ab7; border-color: #2e6da4;}
-.comment-links .comment-edit a:hover{background-color: #286090; border-color: #204d74;}
-
-.comment-links .flag-abuse_comment a{background-color: #f0ad4e; border-color: #eea236;}
-.comment-links .flag-abuse_comment a:hover{background-color: #ec971f; border-color: #d58512;}
-
-.comment-links .flag-abuse_whitelist_comment a{background-color: #5cb85c; border-color: #4cae4c;}
-.comment-links .flag-abuse_whitelist_comment a:hover{background-color: #449d44; border-color: #398439;}
-
-.comment-links .comment-reply a {background-color: #5bc0de; border-color: #46b8da;}
-.comment-links .comment-reply a:hover {background-color: #31b0d5; border-color: #269abc;}
-*/
-
 .logged-in .comment-links .comment-delete a,
 .logged-in .comment-links .comment-edit a,
 .logged-in .comment-links .comment-reply a,
 .logged-in .comment-links .flag-abuse_comment a,
-.logged-in .comment-links .flag-abuse_whitelist_comment a,
-.comment-left-region a.author-pane-link {
+.logged-in .comment-links .flag-abuse_whitelist_comment a, .comment-author-pane .author-privatemsg a {
     background: #dbe6c4;
     background-image: -webkit-linear-gradient(top, #dbe6c4, #9ba892);
     background-image: -moz-linear-gradient(top, #dbe6c4, #9ba892);
@@ -225,8 +195,7 @@ table.forum-table-topics {
 .logged-in .comment-links .comment-edit a:hover,
 .logged-in .comment-links .comment-reply a:hover,
 .logged-in .comment-links .flag-abuse_comment a:hover,
-.logged-in .comment-links .flag-abuse_whitelist_comment a:hover,
-.comment-left-region a.author-pane-link:hover {
+.logged-in .comment-links .flag-abuse_whitelist_comment a:hover, .comment-author-pane .author-privatemsg a:hover {
     background: #9ba892;
     background-image: -webkit-linear-gradient(top, #9ba892, #dbe6c4);
     background-image: -moz-linear-gradient(top, #9ba892, #dbe6c4);
@@ -239,8 +208,7 @@ table.forum-table-topics {
 .logged-in .comment-links .comment-edit a:active,
 .logged-in .comment-links .comment-reply a:active,
 .logged-in .comment-links .flag-abuse_comment a:active,
-.logged-in .comment-links .flag-abuse_whitelist_comment a:active,
-.author-pane-contact a:active {
+.logged-in .comment-links .flag-abuse_whitelist_comment a:active, .comment-author-pane .author-privatemsg a:active {
     position: relative;
     top: 1px;
 }
@@ -370,6 +338,17 @@ p#facebook-login-or {
 /*END BUTTONS*/
 /*COMMENT*/
 
+.comment-author-pane .author-privatemsg a{
+display: inline-block;
+padding: 0;
+margin: 0;
+padding: 3px 10px;
+
+}
+.comment-author-pane .author-privatemsg span {
+padding: 0;
+margin: 0;
+}
 .comment-left-region {
     float: left;
     width: 130px;

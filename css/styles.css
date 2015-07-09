@@ -20,11 +20,11 @@
 /* SMACSS theme rules */
 /* @import "theme-A.css"; */
 /* @import "theme-B.css"; */
-
 @import "custom.css";
 @import "search_block.css";
 @import "profile.css";
 @import "tabs.css";
 @import "xmas.css";
 @import "buttons_forum_comments.css";
-@import "views.css";
+@import "viste.css";
+

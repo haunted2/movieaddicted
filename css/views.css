@@ -104,7 +104,7 @@ display: inline-block;
     z-index: 300;
 }
 #slide-title a {
-    padding: 15px;
+    padding: 10px 15px;
     color: #000000;
     font-weight: bold;
     background-color: #fd7037;

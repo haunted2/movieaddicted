@@ -1,11 +1,9 @@
-/*FORUM*/
-/*begin soundtrack topic*/
-
+/* Soundtracks topic customizations */
 .page-node-17706 .forum-post-number {
     display: none;
 }
-/*end soundtrack topic*/
 
+/* Forums table customizations */
 table.forum-table-topics {
     width: 100%;
     max-width: 100%;
@@ -13,6 +11,8 @@ table.forum-table-topics {
 .forum-name a {
     font-weight: bold;
 }
+
+/* Forum topic and post links */
 .forum-post-links .flag-abuse-node a,
 .forum-post-links .flag-abuse-comment a {
     background: #dfdfdf;
@@ -81,10 +81,9 @@ table.forum-table-topics {
     background-repeat: no-repeat;
     background-position: 10% 50%;
 }
-/*END FORUM*/
-/*BUTTONS*/
 
-.form-submit {
+/*BUTTONS*/
+/*.form-submit {
     margin: 5px;
     -moz-box-shadow: inset 0px 1px 3px 0px #91b8b3;
     -webkit-box-shadow: inset 0px 1px 3px 0px #91b8b3;
@@ -121,7 +120,53 @@ table.forum-table-topics {
 .form-submit:active {
     position: relative;
     top: 1px;
+}*/
+
+/* Form submit button */
+.form-submit {
+font-weight: bold;
+  font-size: 13px;
+  margin: 5px;
+  padding: 6px 24px;
+  background-color: #f5f5f5;
+  background-image: url("../images/write-article.png");
+  background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  font-family: arial,sans-serif;
+  font-size: 12px;
 }
+.form-submit:hover {
+background-color: #f5f5f5;
+  background-image: url("../images/write-article.png");
+  background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: linear-gradient(top,#f8f8f8,#f1f1f1);
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+.form-submit:active {
+position: relative;
+top: 1px;
+outline: none;
+}
+.form-submit:focus {
+outline: none;
+}
+
+/* Like flag */
 .flag-like-comment a,
 .flag-like-node a {
     -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
@@ -170,6 +215,8 @@ table.forum-table-topics {
     position: relative;
     top: 1px;
 }
+
+/* Comments (not forum) links */
 .logged-in .comment-links .comment-delete a,
 .logged-in .comment-links .comment-edit a,
 .logged-in .comment-links .comment-reply a,
@@ -212,6 +259,8 @@ table.forum-table-topics {
     position: relative;
     top: 1px;
 }
+
+/* Review Button */
 a.review-button {
     -moz-box-shadow: inset 0px 1px 3px 0px #91b8b3;
     -webkit-box-shadow: inset 0px 1px 3px 0px #91b8b3;
@@ -258,8 +307,8 @@ a.review-button:active {
     position: relative;
     top: 1px;
 }
-/* Login/register link */
 
+/* Login/register link */
 #block-user-login a.popup-element-title {
     background-image: none;
     background-color: #383838;
@@ -286,8 +335,8 @@ a.review-button:active {
     position: relative;
     top: 1px;
 }
-/* Login with facebook link */
 
+/* Login with facebook link */
 #facebook-login a {
     -moz-box-shadow: inset 0px 1px 0px 0px #7a8eb9;
     -webkit-box-shadow: inset 0px 1px 0px 0px #7a8eb9;
@@ -330,17 +379,16 @@ a.review-button:active {
     position: relative;
     top: 1px;
 }
-/* Facebook login "OR" */
 
+/* Facebook login "OR" */
 p#facebook-login-or {
     background-color: #383838;
     color: #ffffff;
     text-align: center;
     margin-top: 15px;
 }
-/*END BUTTONS*/
-/*COMMENT*/
 
+/* Comment (not forum) template customizations*/
 .comment-author-pane .author-privatemsg a{
 display: inline-block;
 padding: 0;
@@ -397,50 +445,42 @@ margin: 0;
 .review-form {
     display: none;
 }
-/*END COMMENT*/
-/*"Write Article" Button*/
 
+/*"Write Article" Button*/
 a#write-article {
-    margin: 5px;
-    -moz-box-shadow: inset 0px 1px 3px 0px #91b8b3;
-    -webkit-box-shadow: inset 0px 1px 3px 0px #91b8b3;
-    box-shadow: inset 0px 1px 3px 0px #91b8b3;
-    background-image: url("../images/write-article.png");
-    background-image: url("../images/write-article.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
-    background-image: url("../images/write-article.png"), -moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
-    background-image: url("../images/write-article.png"), -webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
-    background-image: url("../images/write-article.png"), -o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
-    background-image: -ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
-    background-image: url("../images/write-article.png"), linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c', GradientType=0);
-    background-color: #768d87;
-    background-repeat: no-repeat;
-    background-position: 3% 50%;
-    border: 1px solid #566963;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: arial;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 7px 10px 7px 30px;
-    text-decoration: none;
-    text-shadow: 0px -1px 0px #2b665e;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 15px 15px 15px 30px;
+  background-color: #f5f5f5;
+  background-image: url("../images/write-article.png");
+  background: url("../images/write-article.png"), -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: url("../images/write-article.png"), -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: url("../images/write-article.png"), -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: url("../images/write-article.png"), -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background: url("../images/write-article.png"), linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  font-family: arial,sans-serif;
+  font-size: 12px;
 }
 a#write-article:hover {
-    background-image: url("../images/write-article.png");
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
-    background-image: url("../images/write-article.png"), -moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-    background-image: url("../images/write-article.png"), -webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-    background-image: url("../images/write-article.png"), -o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-    background-image: url("../images/write-article.png"), -ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-    background-image: url("../images/write-article.png"), linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87', GradientType=0);
-    background-color: #6c7c7c;
-    background-position: 3% 50%;
-    background-repeat: no-repeat;
+  background-color: #f5f5f5;
+  background-image: url("../images/write-article.png");
+  background: url("../images/write-article.png"), -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: url("../images/write-article.png"), -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: url("../images/write-article.png"),  -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: url("../images/write-article.png"),  -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background: url("../images/write-article.png"),  linear-gradient(top,#f8f8f8,#f1f1f1);
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.1);
 }
 a#write-article:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }

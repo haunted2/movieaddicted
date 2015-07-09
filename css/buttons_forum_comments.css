@@ -129,7 +129,6 @@ font-weight: bold;
   margin: 5px;
   padding: 6px 24px;
   background-color: #f5f5f5;
-  background-image: url("../images/write-article.png");
   background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
   background: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
   background: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
@@ -148,7 +147,6 @@ font-weight: bold;
 }
 .form-submit:hover {
 background-color: #f5f5f5;
-  background-image: url("../images/write-article.png");
   background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
   background: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
   background: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
@@ -477,6 +475,8 @@ a#write-article:hover {
   background: url("../images/write-article.png"),  -o-linear-gradient(top,#f8f8f8,#f1f1f1);
   background: url("../images/write-article.png"),  -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
   background: url("../images/write-article.png"),  linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
   text-decoration: none;
   border: 1px solid rgba(0,0,0,0.1);
 }

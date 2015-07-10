@@ -63,7 +63,10 @@ width: 700px;
 padding-right: 5px;
 }
 .statuses-sender-picture img {
-width: 50px;
+width: 55px;
+height: 55px;
+padding: 5px;
+border: solid 1px #cccccc;
 }
 
 .fbss-comments-picture img {

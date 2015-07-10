@@ -9,7 +9,7 @@
 @media screen and (max-width: 800px) {
     #block-search-form {
         position: static;
-        float: _left;
+        float: left;
         clear: both;
     }
 }

@@ -1,30 +1,42 @@
-.pane-user-picture img {
-border-radius: 5px;
-
+.pane-profile-user-picture {
+float: left;
+margin-right: 30px;
 }
-
+.pane-profile-user-picture img {
+height: 150px;
+width: 150px;
+max-width: 100%;
+padding: 10px;
+border: solid 1px #cccccc;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
 .pane-user-privatemsg-send-new-message, .pane-user-relationship-blocks-actions, .pane-flag-link.pane-user {
-display: inline-block;
+float: left;
 margin-right: 5px;
 }
+.pane-user-relationship-blocks-actions {
+clear: left;
+}
+.pane-user-privatemsg-send-new-message, .pane-flag-link.pane-user {
+margin-top: 30px;
+}
 
-@media (max-width: 900px){
-.pane-user-privatemsg-send-new-message, .pane-user-relationship-blocks-actions, .pane-flag-link.pane-user {
-float: left
+.pane-user-relationship-blocks-actions ul {
+list-style-type: none;
+}
+
+.pane-user-relationship-blocks-actions h3 {
+font-size: 12px;
+}
+.empty-pane {
 clear: both;
-margin-top: 10px;
-margin-bottom: 10px;
 }
+.pane-statuses-statuses {
+margin-top: 35px;
 }
-
-@media (max-width: 900px) {
-.pane-user-privatemsg-send-new-message a, .pane-user-relationship-blocks-actions a, .pane-flag-link.pane-user a {
-float: left;
-clear: both;
-}
-}
-
-.pane-user-privatemsg-send-new-message a, .pane-user-relationship-blocks-actions a, .pane-flag-link.pane-user a {
+.pane-user-privatemsg-send-new-message a, .pane-user-relationship-blocks-actions li a, .pane-flag-link.pane-user a {
 background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 rgba(0, 0, 0, 0);
 color: #323232;
 border: solid 1px #CBCBCB;
@@ -33,7 +45,7 @@ padding: 10px 15px 10px 15px;
 margin-right: 5px;
 }
 
-.pane-user-privatemsg-send-new-message a:hover, .pane-user-relationship-blocks-actions a:hover, .pane-flag-link.pane-user a:hover {
+.pane-user-privatemsg-send-new-message a:hover, .pane-user-relationship-blocks-actions li a:hover, .pane-flag-link.pane-user a:hover {
 background: linear-gradient(#FEFEFE, #E5E5E5) repeat scroll 0 0 rgba(0, 0, 0, 0);
 text-decoration: none;
 }

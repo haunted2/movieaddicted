@@ -336,7 +336,6 @@ article.comment {
 #footer {
     background-color: #262626;
     color: #ffffff;
-    border-top: 2px groove #262626;
     font-size: 0.9em;
 }
 #footer a {
@@ -437,7 +436,7 @@ html.js input.throbbing {
 #triptych_middle {
     float: left;
     width: 50%;
-    max-width: 50
+    max-width: 50%
 }
 #triptych_last {
     float: left;
@@ -448,19 +447,19 @@ html.js input.throbbing {
     #triptych_first,
     #triptych_middle,
     #triptych_last {
-        float: nofloat;
+        float: none;
         width: 100%;
         max-width: 100%;
     }
     .panels-flexible-region-left_column_12-left_region,
     .panels-flexible-region-left_column_12-center {
-        float: nofloat;
+        float: none;
         width: 100%;
         max-width: 100%;
     }
     .panels-flexible-row-left_column_12-main-row-middle {
         margin-left: 0;
-        float: nofloat;
+        float: none;
         width: 100%;
         max-width: 100%;
     }
@@ -477,7 +476,7 @@ iframe {
    }
 .node-type-article .view-mode-full {
     background-color: #ffffff;
-    border: soli 1px #cccccc;
+    border: solid 1px #cccccc;
     border-radius: 3px;
     padding: 15px;
 }

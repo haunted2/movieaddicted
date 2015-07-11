@@ -474,7 +474,7 @@ iframe {
     padding: 10px;
     margin-bottom: 10px;
    }
-.node-type-article .view-mode-full {
+.node-type-article #content.view-mode-full {
     background-color: #ffffff;
     border: solid 1px #cccccc;
     border-radius: 3px;
